@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --body: #e7e7e3;
+    --white: #fafafa;
+    --whiteff : #FFFFFF;
+    --blue: #4A69E2;
+    --dark-gray: #232321;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Poppins";
+}
+
+body {
+ background-color: var(--body);
+}
+
+nav {
+    width: 90%;
+    margin: 40px auto;
+    padding: 40px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 20px;
+
+}
+
+nav a {
+    color: black;
+}
+
+.left-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.right-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+.hero h1
+{
+    font-size: 200px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero h1 span 
+{
+    color: var(--blue);
+}
+
+.hero .container 
+{
+    background-image: url(../images/hero-image.png);
+    margin: 50px;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 64px;
+    position: relative;
+}
+
+.hero .container .label
+{
+    background-color: var(--dark-gray);
+    padding: 24px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    rotate: -90deg;
+    position: absolute;
+    left: -84px;
+    top: 180px;
+    border-radius: 0 0 16px 16px;
+}
+
+
+.hero .desc
+{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.hero .desc h2
+{
+ 
+ font-size: 74px;
+}
+
+.hero .desc
+{
+    color: var(--whiteff);
+    
+}
+
+.hero .container .slidebox
+{
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}
+
+.container-kotak
+{
+    
+}
